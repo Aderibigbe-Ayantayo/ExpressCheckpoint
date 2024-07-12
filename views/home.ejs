@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/services">Our Services</a>
+    <a href="/contact">Contact Us</a>
+  </nav>
+  <h1>Welcome to our Home Page</h1>
+  <h1 id="title">GoMyCode Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+  <label id="name-label"   for="name">Name:</label>
+  <input id="name" type="text" placeholder="Enter your name" required><br>
+  <label id="email-label"   for="email">Email:</label>
+  <input id="email" name="email" type="email" placeholder="Enter your Email Address"  required><br>
+<label id="number-label" for="number">Number:</label>
+<input id="number" name="number" type="number" placeholder="Number" min="1" max="1000"  required><br>
+
+<label for="dropdown">Which option best describes your current role?:</label><br>
+<select id="dropdown">
+  <option>Select your current role</option>
+  <option>Student</option>
+  <option>Full Time Job</option>
+  <option>Full Time Learner</option>
+  <option>Part Time Job</option>
+  <option>Prefer not to say</option>
+  <option>Other</option>
+
+</select><br>
+
+<label>Would you recommend GoMyCode to a friend?:</label><br>
+
+<input type="radio" id="option1" name="options" value="option1">
+<label for="option1">Definitely </label><br>
+
+<input type="radio" id="option2" name="options" value="option2">
+<label for="option2">Maybe</label><br>
+
+<input type="radio" id="option3" name="options" value="option3">
+<label for="option3">Not Sure</label><br>
+
+<label>Select your interests:</label><br>
+    <input type="checkbox" id="interest1" name="interests" value="sports">
+    <label for="interest1">Sports</label><br>
+    
+    <input type="checkbox" id="interest2" name="interests" value="music">
+    <label for="interest2">Music</label><br>
+    
+    <input type="checkbox" id="interest3" name="interests" value="movies">
+    <label for="interest3">Movies</label><br>
+    
+    <input type="checkbox" id="interest4" name="interests" value="books">
+    <label for="interest4">Books</label><br>
+    
+    <input type="checkbox" id="interest5" name="interests" value="travel">
+    <label for="interest5">Travel</label><br>
+    
+    <input type="checkbox" id="interest6" name="interests" value="cooking">
+    <label for="interest6">Cooking</label><br>
+    
+<label>Any comments or suggestions?</label><br>
+<textarea placeholder="Enter your comments here"></textarea>
+ <br>
+    <button id="submit"  type="submit">Submit</button>
+
+
+
+
+
+</form>
+</body>
+</html>
